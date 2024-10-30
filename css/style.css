@@ -1,0 +1,28 @@
+.hmd_album{
+	float: left;
+	margin: 10px;
+	border: 2px solid gray;
+	line-height: 0;
+	padding: 4px;
+	border-radius: 8px;
+	position:relative;
+}
+.hmd_album .hmd_loading{
+	display:none;
+	position:absolute;
+	top:0; left:0;
+	border-radius: 8px;
+	background:#fff url(wp-content/plugins/hmd-picasa/images/prettyPhoto/default/loader.gif) no-repeat center center;
+	border: 2px solid #fff;
+} 
+.hmd_album img{
+	border-radius: 8px;
+	margin: 0;
+	padding: 0;
+}
+div.pp_default .pp_description{
+	visibility:hidden;
+}
+div.hmd_album_container{
+	margin-top: -10px;
+}
